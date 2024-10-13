@@ -2,4 +2,4 @@ pdf_directory: './pdfs'
 generate_docx: true
 generate_pdf: true
 output_stats: true
-openai_api_key: 'sk-IHA6kijBLvaBfBe1fI_Ae0AWWOcxmA2C9d05VX6FIWT3BlbkFJ4J5ifGbW0pdr8jygRMyKHufKiaj-soMmS5shhvjpUA'
+openai_api_key: 'sk-IHA6kijBLvaBfBe1fI_Ae0AWWOcxj-soMmS5shhvjpUA'
