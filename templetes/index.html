@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Search and Extract</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PDF Search and Extract System</h1>
+
+        <!-- File Upload Section -->
+        <div class="upload-section">
+            <h2>Upload PDF</h2>
+            <input type="file" id="pdfUpload" accept=".pdf" multiple>
+            <button onclick="uploadPDF()">Upload</button>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <h2>Search in PDF</h2>
+            <input type="text" id="searchQuery" placeholder="Search for text...">
+            <button onclick="searchPDF()">Search</button>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview-section">
+            <h2>Preview Results</h2>
+            <div id="previewContainer"></div>
+            <button id="downloadButton" onclick="downloadPDF()">Download Results</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

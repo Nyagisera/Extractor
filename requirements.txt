@@ -1,0 +1,13 @@
+pdfplumber
+langchain
+openai
+faiss-cpu
+python-docx
+reportlab
+Pillow
+PyYAML
+fastapi
+uvicorn
+PyPDF2
+streamlit
+requests
